@@ -37,7 +37,7 @@ braceForImpact:
 	
 	
 results: #Do something with the prev saved value
-	addi $s0, $s0, 1 #Iterate shit
+	addi $s0, $s0, 1 #Iterate
 	beq $s4, 1, final #if its 1, break out of the loop
 	andi $s1, $s4, 1 #checks if its even or odd  1= odd ,  0 = even
 	beq $s4, 1, final #if its 1, break out of the loop
